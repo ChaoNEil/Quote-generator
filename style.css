@@ -41,12 +41,19 @@ body{
     background-color: white;
     border-radius: 12px;
     padding:50px 40px; /*reads 50px top/bot and 40px left/right*/
-    box-shadow: 0 0 10px; /*reads 0 in x/y and 10px blur*/
+    /*box-shadow: 0 0 10px; /*reads 0 in x/y and 10px blur*/
+    background-color: #121212;
+    box-shadow: #fff 0px 20px 30px -10px;
+    
 }
 
 .text-area{
     font-size: 1.5rem;
     line-height: 1.6;
+    text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+    /*color: #67875d;*/
+    color:#fff;
 }
 
 .person{
@@ -68,4 +75,8 @@ button{
 
 button:active{ /*makes the button change color when clicked, active state changes*/
     background-color: lightgray;
+}
+
+button:hover{
+    cursor: pointer;
 }
