@@ -26,4 +26,9 @@ body{
 .header{
     font-size: 1.2rem;
     border: solid 2px grey;
+    background-color:black;
+    padding: 5px;
+    width: 80%; 
+    margin: 20px auto; /*auto : to make the header box center to its container*/
+    border-radius: 6px;
 }
