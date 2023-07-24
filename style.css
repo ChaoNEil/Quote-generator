@@ -5,7 +5,7 @@
     padding:0;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    color:#e8e6e3;
+    /*color:#e8e6e3;*/
 }
 
 body{
@@ -27,8 +27,18 @@ body{
     font-size: 1.2rem;
     border: solid 2px grey;
     background-color:black;
+    color:#e8e6e3;
     padding: 5px;
     width: 80%; 
     margin: 20px auto; /*auto : to make the header box center to its container*/
     border-radius: 6px;
+}
+
+.main-content{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding:50px 40px; /*reads 50px top/bot and 40px left/right*/
+    box-shadow: 0 0 10px; /*reads 0 in x/y and 10px blur*/
 }
