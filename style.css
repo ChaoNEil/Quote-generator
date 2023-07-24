@@ -47,3 +47,24 @@ body{
     font-size: 1.5rem;
     line-height: 1.6;
 }
+
+.person{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+button{
+    background-color: #262626;
+    color:#e8e6e3;
+    font-size: 1.3rem;
+    padding: 10px 15px; /*reads 10px top/bot and 15px left/right*/
+    margin-top: 25px;
+    border-radius: 6px;
+}
+
+button:active{ /*makes the button change color when clicked, active state changes*/
+    background-color: lightgray;
+}
