@@ -42,3 +42,8 @@ body{
     padding:50px 40px; /*reads 50px top/bot and 40px left/right*/
     box-shadow: 0 0 10px; /*reads 0 in x/y and 10px blur*/
 }
+
+.text-area{
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
