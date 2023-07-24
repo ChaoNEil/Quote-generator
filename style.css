@@ -1,0 +1,29 @@
+/*base styles*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#e8e6e3;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*makes the content come to the middle*/
+    text-align: center;
+    background:url(/image/pexels-adrien-olichon-2387793.jpg) no-repeat center/ cover; /*makes the image fit your whole screen and makes it look good,90% of the time it looks good as you want. */
+
+}
+
+
+.container{
+    height: 350px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 2px grey;
+}
